@@ -6,6 +6,18 @@
 
 [es6](https://babeljs.io/setup#webstorm) + [jest](https://jestjs.io/zh-Hans/)
 
+## 快速开始
+
+```
+git clone git@github.com:dQping/algorithm.git
+
+cd algorithm
+
+npm install
+
+npm run test
+```
+
 ## 内容
 
 ### 1、基础算法

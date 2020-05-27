@@ -1,18 +1,18 @@
 // 冒泡算法 基本实现
 
-// export default function bubbleSort(arr) {
-//   let len = arr.length;
-//   for (let i = len - 1; i > 0; i--) {
-//     for (let j = 0; j < i; j++) {
-//       if (arr[j] > arr[j + 1]) {
-//         let temp = arr[j];
-//         arr[j] = arr[j + 1];
-//         arr[j + 1] = temp;
-//       }
-//     }
-//   }
-//   return arr;
-// }
+function bubbleSort1(arr) {
+  let len = arr.length;
+  for (let i = len - 1; i > 0; i--) {
+    for (let j = 0; j < i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        let temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+  return arr;
+}
 
 // 冒泡算法 改进版
 // 设置一个标志性变量 pos，用于记录每趟排序中最后一次进行交换的位置

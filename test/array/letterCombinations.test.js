@@ -30,11 +30,6 @@ test("letterCombinations:234", () => {
     "cfh",
     "cfi"
   ]);
-});
-
-test("letterCombinations: '' ", () => {
   expect(letterCombinations("")).toEqual([]);
-});
-test("letterCombinations: '3' ", () => {
   expect(letterCombinations("3")).toEqual(["d", "e", "f"]);
 });
